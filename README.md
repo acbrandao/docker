@@ -8,6 +8,8 @@ Docker is a collection of interoperating software-as-a-service and platform-as-a
 
 # System Requirements
 
+Docker is **primarily a Linux based** containerization platform. Although it can be run in Windows 10 (Enterprise and PRofessional editions only) by creating a Hyper-V Linux Virtual machine and then installing the supporting docker daemon and binaries, see https://docs.docker.com/docker-for-windows/install/  
+
 
 # installing Docker on a Linux (ubuntu systems)
 For complete detailed instrcutions visits, digitalOceans documentation https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
