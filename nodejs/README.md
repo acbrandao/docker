@@ -27,7 +27,7 @@ c5e155d5a1d1: Downloading  9.632MB/45.34MB
 69df12c70287: Waiting
 2a68245de447: Waiting
 4f61e9705839: Waiting
-``
+```
 
 Now let's check that the image was properly created
 `docker images`
