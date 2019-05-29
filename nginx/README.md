@@ -5,28 +5,7 @@ This is the (Docker)[https://en.wikipedia.org/wiki/Docker_%28software%29]  repos
 
 # Basics of Docker
 
-Docker is a collection of interoperating software-as-a-service and platform-as-a-service offerings that employ operating-system-level virtualization to cultivate development and delivery of software inside standardized software packages called containers.[6] The software that hosts the containers is called Docker Engine.[7] It was first started in 2013 and is developed by Docker, Inc.[8] The service has both free and premium tiers.
-
-# System Requirements
-
-Docker is **primarily a Linux based** containerization platform. Although it can be run in Windows 10 (Enterprise and PRofessional editions only) by creating a Hyper-V Linux Virtual machine and then installing the supporting docker daemon and binaries, see https://docs.docker.com/docker-for-windows/install/
-
-# installing Docker on a Linux (ubuntu systems)
-
-For complete detailed instrcutions visits, digitalOceans documentation https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
-
-The primary steps are as follows
-
-- `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-- `udo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
-- `sudo apt-get update`
-- `apt-cache policy docker-ce`
-- `sudo apt-get install -y docker-ce`
-- `sudo systemctl status docker`
-
-Once it has been installed and prerperly running use the follow commands to manage docker images.
-
-`docker [option] [command] [arguments]`
+Read the README.md at the top of this repository to installing DOCKER on your Linux system.. Once you have succcessfully installed Docker and confomred the Docker engine is running `docker info` , then proceed as described below
 
 # Creating an NGINX (static website ) Docker image from this src
 
