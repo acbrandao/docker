@@ -5,6 +5,7 @@ This is the (Docker)[https://en.wikipedia.org/wiki/Docker_%28software%29]  repos
 
 # Creating a NodeJS Docker image from this src
 
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 The steps below will outline how you can create this image for an plain NGINX static website being serverd from the contents
 of this repo , located in this /nodejs folder , once you have docker up and runninf locally , issue the command below, to build and run an image
 
