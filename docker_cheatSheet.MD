@@ -4,7 +4,7 @@ Below are common commands that use useful for everyday docker operations. <img a
 This is the (Docker)[https://en.wikipedia.org/wiki/Docker_%28software%29]  repository,  Docker is a very practical and useful method of running virtualized slices of (mostly) Linux containerized applications.
 
 
-# Repository 
+# Repository operations
 Login/Logout into Registry :
 ```
 docker login
@@ -26,3 +26,9 @@ docker push eon01/nginx
 ```
 
 
+# Running containers
+
+  * Creating a container `docker create -t -i username/container_name --name nickname`
+  * Running a container `docker run -it --name container_name -d username/container_name'
+  * Removign a container `docker rm contianer_name`
+  * Updating a Container `docker update --cpu-shares 512 -m 300M infinite`
