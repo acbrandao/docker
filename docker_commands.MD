@@ -5,25 +5,15 @@ This is the (Docker)[https://en.wikipedia.org/wiki/Docker_%28software%29]  repos
 
 
 # Repository operations
-Login/Logout into Registry :
-```
-docker login
-docker logout
-```
 
-Searching for a docker image in registry
-` docker search <image_name> `
-`docker search nginx`
+| Description                               | Docker Command                     |
+| ----------------------------------------- |:----------------------------------:|
+| Login Repository                          | `docker login`                     |
+| Lgout Repository                          | `docker logout`                    |
+| Searching for a docker image in registry  | ` docker search <image_name> `    |
+| Download an Image                         | `docker pull nginx `    |
+| Upload an Image                            | docker push eon01/nginx    |
 
-Download an Image
-```
-docker pull nginx 
-```
-
-Upload an Image
-```
-docker push eon01/nginx
-```
 
 
 # Running containers
